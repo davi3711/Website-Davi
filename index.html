@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">    
+<title>dy</title>
+</head>
+<body>
+    <header id="home">
+        <div data-aos="fade-down" data-aos-duration="1000">
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Room">Room</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#testimoni">Testimoni</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        </div>
+        <div data-aos="fade-right" data-aos-duration="1300">
+        <div class="header-text">
+            <h1>Jelajahi Dunia<br>Mulai Dari Sini</h1>
+        </div>
+    </header>
+    <div data-aos="fade-up" data-aos-duration="1000">
+    <div class="banner">
+        <h1>Temukan Damai <br> Di Setiap Sudut</h1>
+    </div>
+    </div>
+    </body>
+    <div data-aos="fade-up" data-aos-duration="1000">
+    <h1 class="populer">Yang Populer</h1>
+    <div id="Room" class="banner2">
+        <div class="card">
+            <img src="img/raja ampat.webp" alt="">
+            <div class="idr">
+            <p>Raja Ampat</p>
+            <p>Indonesia</p>
+            <p>Rp 1.207.527</p>
+            </div>
+            <button><a href="https://www.tiket.com/hotel/indonesia/hamueco-raja-ampat-dive-resort-108001534490383254?checkin=2025-05-04&checkout=2025-05-05&night=1&adult=1&room=1">Pesan</a></button>
+        </div>
+        <div class="card">
+            <img src="img/Dubai.jpg" alt="">
+            <div class="idr">
+            <p>Dubai</p>
+            <p>UEA</p>
+            <p>Rp 29.619.287</p>
+            </div>
+            <button><a href="https://www.tiket.com/hotel/united-arab-emirates/jumeirah-burj-al-arab-dubai-705001715390500337?room=1&adult=1&checkin=2025-05-04&checkout=2025-05-05&searchSessionId=92F223DC-343C-4761-AF7D-F5FF8486F0A7&referrer=https%3A%2F%2Fwww.tiket.com%2Fhotel%2Fsearch%3Fadult%3D1%26id%3Ddubay-108001534490406482%26q%3DDubai%26room%3D1%26type%3DREGION%26searchSessionId%3D92F223DC-343C-4761-AF7D-F5FF8486F0A7&utm_page=searchResultPage">Pesan</a></button>
+        </div>
+        <div class="card">
+            <img src="img/California.jpg" alt="">
+            <div class="idr">
+            <p>California</p>
+            <p>USA</p>
+            <p>Rp 6.313.551</p>
+            </div>
+            <button><a href="https://www.tiket.com/hotel/united-states/the-sofia-hotel-410001633774523685?adult=1&room=1&source=global_search">Pesan</a></button>
+        </div>
+        <div class="card">
+            <img src="img/singapura.jpg" alt="">
+            <div class="idr">
+            <p>Downtown Core</p>
+            <p>Singapura</p>
+            <p>Rp 3.321.619</p>
+            </div>
+            <button><a href="https://www.tiket.com/hotel/singapore/pan-pacific-serviced-suites-beach-road-505001651552694295?room=1&adult=1&checkin=2025-05-04&checkout=2025-05-05&searchSessionId=FB6AB03F-BFF0-467B-99EB-C307A845776E&referrer=https%3A%2F%2Fwww.tiket.com%2Fhotel%2Fsearch%3Fadult%3D1%26id%3Dsingapore-108001534490299035%26q%3DSingapura%26room%3D1%26type%3DREGION%26searchSessionId%3DFB6AB03F-BFF0-467B-99EB-C307A845776E&utm_page=searchResultPage">Pesan</a></button>
+        </div>
+        <div class="card">
+            <img src="img/Paris.jpg" alt="">
+            <div class="idr">
+            <p>Paris</p>
+            <p>Francis</p>
+            <p>Rp 1.781.820</p>
+            </div>
+            <button><a href="https://www.tiket.com/hotel/france/card-htel-605001685464825464?room=1&adult=1&checkin=2025-05-04&checkout=2025-05-05&searchSessionId=21D2254B-CE7F-4E68-92E0-B33134195876&referrer=https%3A%2F%2Fwww.tiket.com%2Fhotel%2Fsearch%3Fadult%3D1%26id%3Dparis-108001534490306678%26q%3DParis%26room%3D1%26type%3DCITY&utm_page=searchResultPage">Pesan</a></button>
+        </div>
+        <div class="card">
+            <img src="img/Amstterdam.jpg" alt="">
+            <div class="idr">
+            <p>Amsterdam</p>
+            <p>Belanda</p>
+            <p>Rp 2.823.494</p>
+            </div>
+            <button><a href="https://www.tiket.com/hotel/netherlands/room-mate-aitana-amsterdam-804001745919605067?room=1&adult=1&checkin=2025-05-04&checkout=2025-05-05&searchSessionId=70C74D7D-6FB3-49AE-9262-F6228A084C7F&referrer=https%3A%2F%2Fwww.tiket.com%2Fhotel%2Fsearch%3Fadult%3D1%26id%3Damsterdam-108001534490430105%26q%3DAmsterdam%26room%3D1%26type%3DCITY&utm_page=searchResultPage">Pesan</a></button>
+        </div>
+        <div class="card">
+            <img src="img/tokyo.jpg" alt="">
+            <div class="idr">
+            <p>Tokyo</p>
+            <p>Jepang</p>
+            <p>Rp 3.276.654</p>
+            </div>
+            <button><a href="https://www.tiket.com/hotel/japan/hotel-gracery-shinjuku-108001534517493597?room=1&adult=1&checkin=2025-05-04&checkout=2025-05-05&searchSessionId=CEDB36F4-89D3-43BD-8699-5863B17AF9AB&referrer=https%3A%2F%2Fwww.tiket.com%2Fhotel%2Fsearch%3Fadult%3D1%26id%3Dtokyo-108001534490389009%26q%3DTokyo%26room%3D1%26type%3DREGION&utm_page=searchResultPage">Pesan</a></button>
+        </div>
+        <div class="card">
+            <img src="img/berlin.jpeg" alt="">
+            <div class="idr">
+            <p>Berlin</p>
+            <p>Jerman</p>
+            <p>Rp 1.490.333</p>
+            </div>
+            <button><a href="https://www.tiket.com/hotel/germany/mercure-hotel-berlin-wittenbergplatz-412001639107796686?room=1&adult=1&checkin=2025-05-04&checkout=2025-05-05&searchSessionId=45E2EC8D-EA9A-4937-BFDC-60064308A144&referrer=https%3A%2F%2Fwww.tiket.com%2Fhotel%2Fsearch%3Fadult%3D1%26id%3Dtempelhof-schoneberg-a-440270%26q%3DTempelhof-Sch%25C3%25B6neberg%26room%3D1%26type%3DAREA&utm_page=searchResultPage">Pesan</a></button>
+        </div>
+    </div>
+
+    </div>
+    <div data-aos="fade-right" data-aos-duration="1200">
+    <div class="promo">
+    <h1>Dapatkan Promo terbaik</h1>
+    </div>
+    <div class="banner3">
+        <div class="card2">
+            <h2>Kamu Bisa Mendapatkan <br> Diskon Hingga</h2>
+            <p>60%</p>
+        </div>
+        <div class="card2">
+            <h2>Khusus Hotel Di Tokyo <br> Diskon Hingga</h2>
+            <p>40%</p>
+        </div>
+        </div>
+    </div>
+
+    <div data-aos="fade-right" data-aos-duration="1200">
+    <div class="banner4">
+        <h1>Temukan Yang Kamu Suka Di Dunia</h1>
+        <div class="card-container">
+            <div class="card3">
+                <img src="img/Jepang2.jpg" alt="">
+                <h2>Jepang</h2>
+            </div>
+            <div class="card3">
+                <img src="img/australia.jpg" alt="">
+                <h2>Australia</h2>
+            </div>
+            <div class="card3">
+                <img src="img/China.jpg" alt="">
+                <h2>China</h2>
+            </div>
+            <div class="card3">
+                <img src="img/italy.jpg" alt="">
+                <h2>Italia</h2>
+            </div>
+            <div class="card3">
+                <img src="img/inggris.jpg" alt="">
+                <h2>Inggris</h2>
+            </div>
+            <div class="card3">
+                <img src="img/Turki.jpg" alt="">
+                <h2>Turki</h2>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+    <div data-aos="fade-up" data-aos-duration="1200">
+    <div class="banner5">
+        <div class="teks">
+        <h1>Aktivitas Populer</h1>
+        </div>
+        <div class="card-container2">
+            <a href="https://www.traveloka.com/en-id/activities/indonesia/product/dufan-ancol-tickets-2001186750067">
+            <div class="card4">
+                <img src="img/dufan.jfif" alt="">
+                <h1>Ancol</h1>
+                <h2>Tiket Dufan Ancol</h2>
+                <h3>9.3/10</h3>
+                <s>Rp 310.000</s>
+                <p>Rp 265.000</p>
+            </div>
+            </a>
+            <a href="https://www.traveloka.com/id-id/activities/indonesia/product/sea-world-ancol-tickets-2002053221267?funnel_source=Merchandising.mainAppHomePage.mainAppHomePage-V2-SSR-web-ID-LandingPage&funnel_id=S_8_da668204ad657e49c427c9c71c391f5c3a1c4c62_2_b98ece98d882191581667262bdea0ee28c1b49b0&internal_source=true">   
+            <div class="card4">
+                <img src="img/sea world.webp" alt="">
+                <h1>Ancol</h1>
+                <h2>Tiket Sea World</h2>
+                <h3>9.1/10</h3>
+                <s>Rp 120.000</s>
+                <p>Rp 85.200</p>
+            </div>
+            </a>
+            <a href="https://www.tiket.com/to-do/taman-safari-indonesia-bogor?utm_page=toDoSearchResult">
+            <div class="card4">
+                <img src="img/safari.jfif" alt="">
+                <h1>Cisarua</h1>
+                <h2>Tiket Taman Safari</h2>
+                <h3>9.4/10</h3>
+                <s>Rp 220.000</s>
+                <p>Rp 185.000</p>
+            </div>
+            </a>
+            <a href="https://www.tiket.com/to-do/waterbom-bali?utm_page=toDoSearchResult">
+            <div class="card4">
+                <img src="img/waterboom.jfif" alt="">
+                <h1>Tuban</h1>
+                <h2>Tiket Waterboom Bali</h2>
+                <h3>9.5/10</h3>
+                <s>Rp 365.000</s>
+                <p>Rp 288.000</p>
+            </div>
+            </a>
+            <a href="https://www.traveloka.com/id-id/activities/indonesia/product/taman-mini-indonesia-indah-tmii-tickets-9790977050032?funnel_source=Merchandising.AA.Destinationpage-GLP&funnel_id=S_0_9be54c6fd3b64aec7342096a0f1c71a0c02b3bb0_0_93ec1ca6ed6ab950a369a890400946fed82f08b4&internal_source=true">
+            <div class="card4">
+                <img src="img/tamanmini.jpg" alt="">
+                <h1>Jaktim</h1>
+                <h2>Tiket Taman Mini</h2>
+                <h3>9.3/10</h3>
+                <s>Rp 30.000</s>
+                <p>Rp 25.000</p>
+            </div>
+            </a>
+            <a href="https://www.tiket.com/to-do/3d2n-open-trip-share-trip-taman-nasional-komodo-weekend-by-aravista-liveboard?utm_page=toDoSearchResult">
+            <div class="card4">
+                <img src="img/komodo.jpg" alt="">
+                <h1>NT</h1>
+                <h2>Tiket Pulau Komodo</h2>
+                <h3>9.4/10</h3>
+                <s>Rp 5.800.000</s>
+                <p>Rp 5.000.000</p>
+            </div>
+            </a>
+            <a href="https://www.traveloka.com/en-id/activities/indonesia/product/museum-nasional-indonesia-4484433519186">
+            <div class="card4">
+                <img src="img/museum.jpg" alt="">
+                <h1>Jakarta</h1>
+                <h2>Museum Indonesia</h2>
+                <h3>9.4/10</h3>
+                <s>Rp 35.000</s>
+                <p>Rp 25.000</p>
+            </div>
+            </a>
+            <a href="https://www.traveloka.com/en-id/activities/indonesia/product/atlantis-ancol-tickets-2000226411900">
+            <div class="card4">
+                <img src="img/atlantis.jpg" alt="">
+                <h1>Ancol</h1>
+                <h2>Atlantis Ancol</h2>
+                <h3>9.4/10</h3>
+                <s>Rp 110.000</s>
+                <p>Rp 78.100</p>
+            </div>
+            </a>
+        </div>
+        </div>
+    </div>
+</div>
+
+    <div id="about" class="about">
+        <div data-aos="fade-up" data-aos-duration="1200">
+        <img src="img/about.jpg" alt="">
+        </div>
+        <div data-aos="fade-right" data-aos-duration="1200">
+        <h1>Tentang Kami</h1>
+        <p>Kami adalah perusahaan teknologi
+            asal Indonesia yang berfokus 
+            pada layanan perjalanan dan gaya berbasis digital 
+            Kami menawarkan layanan seperti pemesanan hotel <br> <br>
+            Dengan berbekal semangat, kreativitas, inovasi, dan pengalaman
+            kami akan memastikan liburan anda menjadi nyaman, terencana dan berjalan dengan baik </p>
+            <a href="https://wa.me/6285771997703"><button>Selengkapnya</button></a>
+        </div>
+    </div>
+
+    <div data-aos="fade-up" data-aos-duration="1200">
+    <div id="testimoni" class="test">
+        <h1>Testimoni</h1>
+        <div class="card-container3">
+            <div class="card5">
+                <img src="img/raffi2.jfif" alt="">
+                <h2>Raffi Ahmad</h2>
+                <p>"Aplikasi ini benar-benar memudahkan rencana liburan saya! Semua bisa dipesan dalam satu tempat—tiket pesawat, hotel, hingga aktivitas wisata. Cepat, aman, dan praktis"</p>
+            </div>
+            <div class="card5">
+                <img src="img/atta.jpg" alt="">
+                <h2>Atta Halilintar</h2>
+                <p>"Pelayanan pelanggan sangat responsif dan profesional. Ketika ada masalah saat check-in hotel, mereka langsung membantu sampai tuntas. Sangat direkomendasikan!</p>
+            </div>
+            <div class="card5">
+                <img src="img/arya.jpg" alt="">
+                <h2>Arya Saloka</h2>
+                <p>"Saya suka fitur PayLater-nya, sangat membantu saat butuh liburan mendadak tapi belum gajian. Prosesnya juga cepat dan transparan."</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer id="contact">
+        <div class="kiri">
+        <h2>GoTravels</h2>
+        <p>perusahaan Layanan Wisata,<br>
+            Booking Hotel Yang Memastikan <br>
+            Liburan Anda Menjadi Terencana</p>
+        </div>
+        <div class="tengah">
+            <h2>Layanan</h2>
+            <p>Pembelian Tiket</p>
+            <p>Pembelian Tiket Hotel</p>
+            <p>Pembelian Tiket Wisata</p>
+        </div>
+        <div class="kanan">
+            <h2>Alamat</h2>
+            <p>Kec.Megamendung, Bogor, Jawa Barat <br>
+                Ds.Pasir Angin</p>
+            </div>
+            <div class="h1"><h2>Partner</h2>
+                <div class="bawah">
+                    <a href="https://www.traveloka.com/id-id?id=10809310738391746703&adloc=id-id&kw=traveloka&gmt=e&gn=g&gd=c&gdm=&gcid=705646680134&gdp=&gdt=&gap=&pc=1&cp=ID_TV_SM_AU_AL_Google+-+X+-+Search-ID/id+-+B+-+X+-+X_X+|+QueryType:Brand+Pure,MT:Exact_Traveloka+|+MT:Exact&aid=170276730131&wid=kwd-51659214310&fid=&gid=9119174&utm_id=CQrjwi8M&ad_id=705646680134&target_id=kwd-51659214310&click_id=Cj0KCQjw_dbABhC5ARIsAAh2Z-QvCEX6KXXSWMe6pHATZclNY3jL4UVQxISLxDd_mrVkBn9OWpgHNScaApxkEALw_wcB&group_id=170276730131&gad_source=1&gad_campaignid=21466334833&gbraid=0AAAAADi60UkebQ_QyJhUlHozzuyb04Tkf&gclid=Cj0KCQjw_dbABhC5ARIsAAh2Z-QvCEX6KXXSWMe6pHATZclNY3jL4UVQxISLxDd_mrVkBn9OWpgHNScaApxkEALw_wcB"><img src="img/traveloka.png" alt=""></a>
+                    <a href="https://www.tiket.com/?utm_source=google&utm_term=tiket+com&utm_medium=prf-ppc&utm_campaign=%5BSEM-BRN%7C001%7CC00BR%5D%3A+Tiket.com+-+ROAS&utmExternal=prf&gad_source=1&gad_campaignid=19223630767&gclid=Cj0KCQjw_dbABhC5ARIsAAh2Z-Ti77TRx_51N_6D3gnPwiNB--oxUfRA39AAQI_gE6cZroFJRKbHqJkaAgvrEALw_wcB&gclsrc=aw.ds"><img src="img/tiket.jpg" alt=""></a>
+                </div>
+                <div class="sosmed">
+                <a href="https://www.instagram.com/mdavv_13?utm_source=qr&igsh=MXFiMWY5Mnk4MXFqZg=="><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/6285771997703"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/muhamad-davi-najamudin-ansori-72b243348?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+    </footer>
+    <div class="foot">
+        <p>Made By Davi 2025</p>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+      <script>
+        var sidemenu = document.getElementById("sidemenu") 
+        function openmenu(){
+            sidemenu.style.right = "0"
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+      </script>
+</body>
+</html>
